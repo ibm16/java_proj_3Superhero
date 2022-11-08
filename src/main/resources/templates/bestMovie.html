@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>The Best Movie</title>
+</head>
+<body>
+<p th:text="'The best movie is: ' + ${bestMovie}" />
+<p th:text="'Voters: ' + ${bestMovieVoters}" />
+<a href="/">Home</a>
+
+<p th:text="'The best movie is: ' + ${bestMovie}" />
+
+<p th:text="'The best character is: ' + ${superhero.full_name}" />
+<p th:text="'The best character is: ' + ${superhero.description}" />
+
+
+<p th:text="'The second best character is: ' + ${superhero.full_name}" />
+<p th:text="'The best character is: ' + ${superhero.description}" />
+
+
+<p th:text="'The third best character is: ' + ${superhero.full_name}" />
+<p th:text="'The best character is: ' + ${superhero.description}" />
+
+
+
+</body>
+</html>
